@@ -1,0 +1,76 @@
+.container {
+
+width: 1280px;
+
+    margin: 0 auto;
+
+
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card_product{
+
+    width: 30%;
+   
+    left: 0px;
+    top: 0px;
+    gap: 15px;
+
+
+}
+    .title_product {
+
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6E6659;
+    }
+.armchair {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #264E58;
+}
+.vendor{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.price {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #A5A5A5;
+
+
+} .title_product , .armchair ,.vendor,.price{
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 10px;
+
+
+
+
+  }
+  .articul {
+      color: #264E58;
+      font-size: 14px;
+  }
+  .card_price {
+      font-size: 20px;
+      color: #6E6659;
+  }
